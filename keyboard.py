@@ -8,7 +8,7 @@ def create_keyboard_front():
     markup = ReplyKeyboardMarkup(resize_keyboard=True).row(button)
     markup.add(KeyboardButton('О боте 🤖', callback_data='about'))
     markup.add(KeyboardButton('Связаться с автором 👩🏽‍💻', callback_data='author'))
-    markup.add(KeyboardButton('Назад 😎', callback_data='return'))
+    markup.add(KeyboardButton('В начало 😎', callback_data='return'))
     return markup
 
 
@@ -17,7 +17,7 @@ def create_keyboard_color():
     markup = ReplyKeyboardMarkup(resize_keyboard=True).row(button)
     markup.add(KeyboardButton('О боте 🤖', callback_data='about'))
     markup.add(KeyboardButton('Связаться с автором 👩🏽‍💻', callback_data='author'))
-    markup.add(KeyboardButton('Назад 😎', callback_data='return'))
+    markup.add(KeyboardButton('В начало 😎', callback_data='return'))
     return markup
 
 
@@ -26,7 +26,7 @@ def create_keyboard_color_generate():
     markup = ReplyKeyboardMarkup(resize_keyboard=True).row(button)
     markup.add(KeyboardButton('О боте 🤖', callback_data='about'))
     markup.add(KeyboardButton('Связаться с автором 👩🏽‍💻', callback_data='author'))
-    markup.add(KeyboardButton('Назад 😎', callback_data='return'))
+    markup.add(KeyboardButton('В начало 😎', callback_data='return'))
     return markup
 
 
