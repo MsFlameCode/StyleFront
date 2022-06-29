@@ -4,10 +4,10 @@ import const
 
 def transparent():
     w = len(const.INPUT_TEXT)*200+200
-    h = 800
+    h = 1800
     if len(const.INPUT_TEXT) < const.STR_LEN:
         h = 300
-        w = len(const.INPUT_TEXT)*100
+        w = len(const.INPUT_TEXT)*200
     size_text = len(const.INPUT_TEXT)*20
     if len(const.INPUT_TEXT) > const.STR_LEN:
         size_text = 400
