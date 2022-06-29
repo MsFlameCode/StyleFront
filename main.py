@@ -22,7 +22,7 @@ async def process_help_command(message: types.Message):
     await bot.send_message(message.from_user.id, const.CONST_HELP)
 
 
-@dp.message_handler(lambda message: message.text == "Назад 😎")
+@dp.message_handler(lambda message: message.text == "В начало 😎")
 async def process_start_command(message: types.Message):
     await bot.send_message(message.from_user.id, const.CONST_GREETINGS, reply_markup=keyboard.create_keyboard_front())
 
